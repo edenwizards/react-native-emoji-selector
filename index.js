@@ -404,15 +404,16 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255,255,255,0.75)'
   },
   search: {
-    ...Platform.select({
-      ios: {
-        height: 36,
-        paddingLeft: 8,
-        borderRadius: 10,
-        backgroundColor: '#E5E8E9'
-      }
-    }),
-    margin: 8,
+    backgroundColor: "#FFF",
+    color: "#545C64",
+    height: 40,
+    paddingLeft: 10,
+    borderWidth: 1,
+    borderRadius: 3,
+    borderColor: '#CECFD2',
+    marginTop: 10,
+    marginLeft: 10,
+    marginRight: 10,
   },
   container: {
     flex: 1,
