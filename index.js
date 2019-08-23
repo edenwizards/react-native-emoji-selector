@@ -290,7 +290,7 @@ export default class EmojiSelector extends Component {
           clearButtonMode='always'
           returnKeyType='done'
           autoCorrect={false}
-          underlineColorAndroid={theme}
+          underlineColorAndroid='transparent'
           value={searchQuery}
           onChangeText={this.handleSearch}
         />
